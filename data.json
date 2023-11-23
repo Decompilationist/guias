@@ -1,30 +1,354 @@
 [
   {
     "ID": 1,
-    "ProductName": "ProductA",
-    "Category": "Skincare",
-    "Price": 50.00,
-    "StockQuantity": 100
+    "NomeProduto": "ProdutoA",
+    "Categoria": "Cuidados com a Pele",
+    "Preco": 50.00,
+    "QuantidadeEstoque": 100
   },
   {
     "ID": 2,
-    "ProductName": "ProductB",
-    "Category": "Makeup",
-    "Price": 30.00,
-    "StockQuantity": 75
+    "NomeProduto": "ProdutoB",
+    "Categoria": "Maquiagem",
+    "Preco": 30.00,
+    "QuantidadeEstoque": 75
+  },
+  {
+    "ID": 3,
+    "NomeProduto": "ProdutoC",
+    "Categoria": "Fragrância",
+    "Preco": 80.00,
+    "QuantidadeEstoque": 50
+  },
+  {
+    "ID": 4,
+    "NomeProduto": "ProdutoD",
+    "Categoria": "Cuidados com o Cabelo",
+    "Preco": 25.00,
+    "QuantidadeEstoque": 120
+  },
+  {
+    "ID": 5,
+    "NomeProduto": "ProdutoE",
+    "Categoria": "Cuidados com a Pele",
+    "Preco": 60.00,
+    "QuantidadeEstoque": 90
+  },
+  {
+    "ID": 6,
+    "NomeProduto": "ProdutoF",
+    "Categoria": "Maquiagem",
+    "Preco": 40.00,
+    "QuantidadeEstoque": 60
+  },
+  {
+    "ID": 7,
+    "NomeProduto": "ProdutoG",
+    "Categoria": "Fragrância",
+    "Preco": 75.00,
+    "QuantidadeEstoque": 80
+  },
+  {
+    "ID": 8,
+    "NomeProduto": "ProdutoH",
+    "Categoria": "Cuidados com o Cabelo",
+    "Preco": 35.00,
+    "QuantidadeEstoque": 110
+  },
+  {
+    "ID": 9,
+    "NomeProduto": "ProdutoI",
+    "Categoria": "Cuidados com a Pele",
+    "Preco": 55.00,
+    "QuantidadeEstoque": 85
+  },
+  {
+    "ID": 10,
+    "NomeProduto": "ProdutoJ",
+    "Categoria": "Maquiagem",
+    "Preco": 45.00,
+    "QuantidadeEstoque": 70
+  },
+  {
+    "ID": 11,
+    "NomeProduto": "ProdutoK",
+    "Categoria": "Fragrância",
+    "Preco": 90.00,
+    "QuantidadeEstoque": 40
+  },
+  {
+    "ID": 12,
+    "NomeProduto": "ProdutoL",
+    "Categoria": "Cuidados com o Cabelo",
+    "Preco": 30.00,
+    "QuantidadeEstoque": 105
+  },
+  {
+    "ID": 13,
+    "NomeProduto": "ProdutoM",
+    "Categoria": "Cuidados com a Pele",
+    "Preco": 70.00,
+    "QuantidadeEstoque": 95
+  },
+  {
+    "ID": 14,
+    "NomeProduto": "ProdutoN",
+    "Categoria": "Maquiagem",
+    "Preco": 50.00,
+    "QuantidadeEstoque": 65
+  },
+  {
+    "ID": 15,
+    "NomeProduto": "ProdutoO",
+    "Categoria": "Fragrância",
+    "Preco": 85.00,
+    "QuantidadeEstoque": 45
+  },
+  {
+    "ID": 16,
+    "NomeProduto": "ProdutoP",
+    "Categoria": "Cuidados com o Cabelo",
+    "Preco": 40.00,
+    "QuantidadeEstoque": 100
+  },
+  {
+    "ID": 17,
+    "NomeProduto": "ProdutoQ",
+    "Categoria": "Cuidados com a Pele",
+    "Preco": 65.00,
+    "QuantidadeEstoque": 80
+  },
+  {
+    "ID": 18,
+    "NomeProduto": "ProdutoR",
+    "Categoria": "Maquiagem",
+    "Preco": 55.00,
+    "QuantidadeEstoque": 55
+  },
+  {
+    "ID": 19,
+    "NomeProduto": "ProdutoS",
+    "Categoria": "Fragrância",
+    "Preco": 95.00,
+    "QuantidadeEstoque": 35
+  },
+  {
+    "ID": 20,
+    "NomeProduto": "ProdutoT",
+    "Categoria": "Cuidados com o Cabelo",
+    "Preco": 45.00,
+    "QuantidadeEstoque": 95
+  },
+  {
+    "ID": 21,
+    "NomeProduto": "ProdutoU",
+    "Categoria": "Cuidados com a Pele",
+    "Preco": 75.00,
+    "QuantidadeEstoque": 75
+  },
+  {
+    "ID": 22,
+    "NomeProduto": "ProdutoV",
+    "Categoria": "Maquiagem",
+    "Preco": 60.00,
+    "QuantidadeEstoque": 50
+  },
+  {
+    "ID": 23,
+    "NomeProduto": "ProdutoW",
+    "Categoria": "Fragrância",
+    "Preco": 100.00,
+    "QuantidadeEstoque": 30
+  },
+  {
+    "ID": 24,
+    "NomeProduto": "ProdutoX",
+    "Categoria": "Cuidados com o Cabelo",
+    "Preco": 50.00,
+    "QuantidadeEstoque": 90
   },
   {
     "ID": 25,
-    "ProductName": "ProductY",
-    "Category": "Skincare",
-    "Price": 80.00,
-    "StockQuantity": 70
+    "NomeProduto": "ProdutoY",
+    "Categoria": "Cuidados com a Pele",
+    "Preco": 80.00,
+    "QuantidadeEstoque": 70
   },
   {
     "ID": 26,
-    "ProductName": "ProductZ",
-    "Category": "Makeup",
-    "Price": 70.00,
-    "StockQuantity": 45
+    "NomeProduto": "ProdutoZ",
+    "Categoria": "Maquiagem",
+    "Preco": 70.00,
+    "QuantidadeEstoque": 45
+  },
+  {
+    "ID": 27,
+    "NomeProduto": "ProdutoAA",
+    "Categoria": "Cuidados com a Pele",
+    "Preco": 60.00,
+    "QuantidadeEstoque": 60
+  },
+  {
+    "ID": 28,
+    "NomeProduto": "ProdutoAB",
+    "Categoria": "Maquiagem",
+    "Preco": 40.00,
+    "QuantidadeEstoque": 40
+  },
+  {
+    "ID": 29,
+    "NomeProduto": "ProdutoAC",
+    "Categoria": "Fragrância",
+    "Preco": 90.00,
+    "QuantidadeEstoque": 90
+  },
+  {
+    "ID": 
+
+30,
+    "NomeProduto": "ProdutoAD",
+    "Categoria": "Cuidados com o Cabelo",
+    "Preco": 30.00,
+    "QuantidadeEstoque": 30
+  },
+  {
+    "ID": 31,
+    "NomeProduto": "ProdutoAE",
+    "Categoria": "Cuidados com a Pele",
+    "Preco": 75.00,
+    "QuantidadeEstoque": 75
+  },
+  {
+    "ID": 32,
+    "NomeProduto": "ProdutoAF",
+    "Categoria": "Maquiagem",
+    "Preco": 55.00,
+    "QuantidadeEstoque": 55
+  },
+  {
+    "ID": 33,
+    "NomeProduto": "ProdutoAG",
+    "Categoria": "Fragrância",
+    "Preco": 95.00,
+    "QuantidadeEstoque": 95
+  },
+  {
+    "ID": 34,
+    "NomeProduto": "ProdutoAH",
+    "Categoria": "Cuidados com o Cabelo",
+    "Preco": 45.00,
+    "QuantidadeEstoque": 45
+  },
+  {
+    "ID": 35,
+    "NomeProduto": "ProdutoAI",
+    "Categoria": "Cuidados com a Pele",
+    "Preco": 70.00,
+    "QuantidadeEstoque": 70
+  },
+  {
+    "ID": 36,
+    "NomeProduto": "ProdutoAJ",
+    "Categoria": "Maquiagem",
+    "Preco": 50.00,
+    "QuantidadeEstoque": 50
+  },
+  {
+    "ID": 37,
+    "NomeProduto": "ProdutoAK",
+    "Categoria": "Fragrância",
+    "Preco": 80.00,
+    "QuantidadeEstoque": 80
+  },
+  {
+    "ID": 38,
+    "NomeProduto": "ProdutoAL",
+    "Categoria": "Cuidados com o Cabelo",
+    "Preco": 35.00,
+    "QuantidadeEstoque": 35
+  },
+  {
+    "ID": 39,
+    "NomeProduto": "ProdutoAM",
+    "Categoria": "Cuidados com a Pele",
+    "Preco": 65.00,
+    "QuantidadeEstoque": 65
+  },
+  {
+    "ID": 40,
+    "NomeProduto": "ProdutoAN",
+    "Categoria": "Maquiagem",
+    "Preco": 55.00,
+    "QuantidadeEstoque": 55
+  },
+  {
+    "ID": 41,
+    "NomeProduto": "ProdutoAO",
+    "Categoria": "Fragrância",
+    "Preco": 85.00,
+    "QuantidadeEstoque": 85
+  },
+  {
+    "ID": 42,
+    "NomeProduto": "ProdutoAP",
+    "Categoria": "Cuidados com o Cabelo",
+    "Preco": 40.00,
+    "QuantidadeEstoque": 40
+  },
+  {
+    "ID": 43,
+    "NomeProduto": "ProdutoAQ",
+    "Categoria": "Cuidados com a Pele",
+    "Preco": 60.00,
+    "QuantidadeEstoque": 60
+  },
+  {
+    "ID": 44,
+    "NomeProduto": "ProdutoAR",
+    "Categoria": "Maquiagem",
+    "Preco": 30.00,
+    "QuantidadeEstoque": 30
+  },
+  {
+    "ID": 45,
+    "NomeProduto": "ProdutoAS",
+    "Categoria": "Fragrância",
+    "Preco": 75.00,
+    "QuantidadeEstoque": 75
+  },
+  {
+    "ID": 46,
+    "NomeProduto": "ProdutoAT",
+    "Categoria": "Cuidados com o Cabelo",
+    "Preco": 50.00,
+    "QuantidadeEstoque": 50
+  },
+  {
+    "ID": 47,
+    "NomeProduto": "ProdutoAU",
+    "Categoria": "Cuidados com a Pele",
+    "Preco": 80.00,
+    "QuantidadeEstoque": 80
+  },
+  {
+    "ID": 48,
+    "NomeProduto": "ProdutoAV",
+    "Categoria": "Maquiagem",
+    "Preco": 70.00,
+    "QuantidadeEstoque": 70
+  },
+  {
+    "ID": 49,
+    "NomeProduto": "ProdutoAW",
+    "Categoria": "Fragrância",
+    "Preco": 90.00,
+    "QuantidadeEstoque": 90
+  },
+  {
+    "ID": 50,
+    "NomeProduto": "ProdutoAX",
+    "Categoria": "Cuidados com o Cabelo",
+    "Preco": 45.00,
+    "QuantidadeEstoque": 45
   }
 ]
