@@ -1,0 +1,30 @@
+[
+  {
+    "ID": 1,
+    "ProductName": "ProductA",
+    "Category": "Skincare",
+    "Price": 50.00,
+    "StockQuantity": 100
+  },
+  {
+    "ID": 2,
+    "ProductName": "ProductB",
+    "Category": "Makeup",
+    "Price": 30.00,
+    "StockQuantity": 75
+  },
+  {
+    "ID": 25,
+    "ProductName": "ProductY",
+    "Category": "Skincare",
+    "Price": 80.00,
+    "StockQuantity": 70
+  },
+  {
+    "ID": 26,
+    "ProductName": "ProductZ",
+    "Category": "Makeup",
+    "Price": 70.00,
+    "StockQuantity": 45
+  }
+]

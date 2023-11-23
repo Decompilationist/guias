@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial - Planilha de Transferência de Produtos Morumbi</title>
+    <link href="tailwind.min.css" rel="stylesheet">
+</head>
+
+<style>
+.boutique-saida {
+            color: red;
+        }
+
+        .boutique-entrada {
+            color: green;
+        }
+
+.hiden {
+	display: none;
+}
+
+</style>
+
+ <!-- Adicionando uma tabela -->
+        <table id="productTable" class="table-auto w-full mb-6">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Produto</th>
+                    <th>Categoria</th>
+                    <th>Preço</th>
+                    <th>Quantidade em Estoque</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Dados da tabela serão carregados dinamicamente aqui -->
+            </tbody>
+        </table>
+
+        <!-- Adicionando script para carregar dados -->
+        <script>
+            // Função para carregar dados do JSON usando Fetch
+            async function loadJSONData() {
+                const response = await fetch('data.json');
+                const data = await response.json();
+
+                // Inserir dados na tabela
+                const tableBody = document.getElementById('productTable').getElementsByTagName('tbody')[0];
+                data.forEach(product => {
+                    const newRow = tableBody.insertRow();
+                    Object.values(product).forEach(value => {
+                        const cell = newRow.insertCell();
+                        cell.textContent = value;
+                    });
+                });
+            }
+
+            // Chamar a função de carregamento de dados ao carregar a página
+            window.onload = function () {
+                loadJSONData();
+            };
+        </script>
+
+<body class="bg-gray-100 p-4">
+    <div class="max-w-3xl mx-auto bg-white p-6 rounded-md shadow-md">
+        <h1 class="text-3xl font-bold mb-6 text-center">Tutorial - Uso da Planilha de Transferência de Produtos</h1>
+<br<br><br>
+
+        <div class="mb-6">
+            <h2 class="text-xl font-bold mb-3">Passo 1: Acesso à Planilha</h2>
+            <img src="Prints/drive.png" alt="Passo 1" class="rounded-lg mb-4">
+            <p>Para utilizar a planilha de transferência de produtos, faça login na plataforma do drive usando suas credenciais de acesso <b>(de preferência com uma conta Sisley)</b> e acesse o link da sua respectiva Boutique, no caso do Morumbi acesse o seguinte <a href="https://drive.google.com/drive/folders/1tUDlD10xay2bajQ_gGRhwNd2faAvmA1n?usp=sharing" class="text-blue-500">link.</a></p>
+        </div>
+<br><br>
+
+        <div class="mb-6">
+            <h2 class="text-xl font-bold mb-3">Passo 2: Configurando a planilha</h2>
+            <img src="Prints/planilha1.png" alt="Passo 2" class="rounded-lg mb-4">
+            <p>Após acessar o arquivo da planilha, configure as <b>tabelas</b> e <b>pastas</b> da planilha <b>conforme o mês</b> para suas transferências de produtos serem de facilmente identificadas.</p>
+        </div>
+<br><br>
+        <div class="mb-6">
+            <h2 class="text-xl font-bold mb-3">Passo 3: Inserção de Dados</h2>
+            <img src="Prints/planilha2.png" alt="Passo 3" class="rounded-lg mb-4">
+            <p>Preencha os campos da planilha com as informações corretas sobre os produtos que você está transferindo, sempre incluindo a <b>DATA</b> que o produto foi transferido. <br>a <b class="boutique-saida">BOUTIQUE DE SAÍDA</b> <b>é a Boutique que o produto foi retirado</b> já a <b class="boutique-entrada">BOUTIQUE DE ENTRADA</b> <b>é a Boutique que o produto está sendo direcionado.</b> Segue exemplo na imagem.</p>
+        </div>
+<br><br>
+        <div class="mb-6">
+            <h2 class="text-xl font-bold mb-3">Passo 4: Preenchendo o Produto</h2>
+            <img src="Prints/planilha3.png" alt="Passo 4" class="rounded-lg mb-4">
+            <p>Após inserir os dados que especificam o direcionamento do(s) produto(s), temos que preencher o(s) do(s) produto(s) em si. <b>SEMPRE</b> se atente ao nome do <b class="boutique-entrada">PRODUTO CORRETO</b>. Quando pedimos o <b>PFF</b> precisamos que vocês os preencham por completo, <b>com o ponto, sem espaço</b>, como na imagem. Além de especificar o <b>LOTE</b> e a <b>QUANTIDADE</b> transferida.</p>
+        </div>
+
+        <p class="text-sm">Para mais informações, consulte <a href="mailto:gustavo.lopes@sisley.fr" target="_blank" class="text-blue-500">gustavo.lopes@sisley.fr</a>.</p>
+    </div><br><br><br><br>
+
+    <div class="max-w-3xl mx-auto bg-white p-6 rounded-md shadow-md">
+        <h1 class="text-3xl font-bold mb-6 text-center">Recomendações</h1>
+
+        <!-- Outros passos semelhantes aqui... -->
+
+        <div class="mb-6">
+            
+            <img src="Prints/recomendacao.png" alt="Recomendacao" class="rounded-lg mb-4 mx-auto">
+        </div>
+    </div>
+</body>
+
+</html>
